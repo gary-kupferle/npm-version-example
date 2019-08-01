@@ -1,0 +1,26 @@
+{
+  "name": "npm-version-example",
+  "version": "1.0.0",
+  "description": "Simple example of npm-version usage",
+  "main": "",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gary-kupferle/npm-version-example.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-version"
+  ],
+  "author": "Gary Kupferle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gary-kupferle/npm-version-example/issues"
+  },
+  "homepage": "https://github.com/gary-kupferle/npm-version-example#readme",
+  "dependencies": {
+    "npm-version": "^1.1.0"
+  }
+}
