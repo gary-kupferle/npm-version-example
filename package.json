@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "test": "npm test",
-    "postversion": "git push origin head"
+    "postversion": "git push --tags origin head"
   },
   "repository": {
     "type": "git",
