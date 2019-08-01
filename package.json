@@ -4,7 +4,8 @@
   "description": "Simple example of npm-version usage",
   "main": "",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "postversion": "git push origin head"
   },
   "repository": {
     "type": "git",
