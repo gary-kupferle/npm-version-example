@@ -11,7 +11,7 @@ This project demonstrates automated semantic versioning using npm-version (https
 
 After installing npm-version in this "project" (empty NPM project initialized with `npm init`), there was only one edit I had to make to meet the above goals. Achieving step 4 was accomplished by adding the following line:
 
-    `"postversion": "git push --follow-tags origin head"`
+    "postversion": "git push --follow-tags origin head"
 to the pre-existing "scripts" JSON object in package.json.
 
 ### What Problem Am I Trying to Solve?
