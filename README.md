@@ -10,11 +10,11 @@ This project demonstrates automated semantic versioning using npm-version (https
 4. Push changes to the remote repo
 
 After installing npm-version in this "project" (empty NPM project initialized with `npm init`), there was only one edit I had to make to meet the above goals. Achieving step 4 was accomplished by adding the following line:
-    `"postversion": "git push --follow-tags origin head"`
 
+    `"postversion": "git push --follow-tags origin head"`
 to the pre-existing "scripts" JSON object in package.json.
 
-### What Problem Am I Trying to Solve
+### What Problem Am I Trying to Solve?
 When module is in production, there are situations where knowing the exact build is necessary (e.g., after running a deployment script to deploy a new feature). If needed, I also want to know exactly what source code files and libraries built the module. If a patch is needed in a module deployed to production, knowing the exact set of files that produced the build is a key to successfully making targeted (patch) changes. 
 
 A CI build should automatically do the above goals. This eliminates manual work where one of the steps is skipped or done incorrectly. Automating version updates CI also ensures that the updating the version number is always done, eliminating human error of skipping an "update version" step.
